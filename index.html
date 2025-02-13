@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Product Card</title>
+
+    <style>
+      header {
+        font-size: 30px;
+        text-align: center;
+        font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+          "Lucida Sans", Arial, sans-serif;
+      }
+
+      article {
+        font-family: sans-serif;
+        width: 920px;
+        margin: auto;
+      }
+
+      #product-images {
+        width: 500px;
+        height: 700px;
+      }
+
+      #product-details {
+        width: 400px;
+        height: 700px;
+        float: right;
+      }
+
+      p {
+        font-weight: 100;
+      }
+
+      .sizes {
+        width: 180px;
+        height: 50px;
+        border: 2px solid gray;
+        border-radius: 3%;
+        float: left;
+        margin: 2%;
+        text-align: center;
+      }
+
+      h3 {
+        font-weight: 100;
+      }
+
+      .button {
+        width: 370px;
+        height: 50px;
+        border-radius: 50px;
+        border: 2px solid black;
+        float: left;
+        text-align: center;
+        margin-top: 20px;
+        margin-left: 15px;
+      }
+
+      #add-to-bag {
+        background-color: black;
+        color: white;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1>Air Jordan 1 Mid: A Timeless Icon of Street Style</h1>
+    </header>
+    <article>
+      <embed
+        id="product-images"
+        src="./product-display.html"
+        type="text/html"
+      />
+
+      <section id="product-details">
+        <h1>Air Jordan 1 Mid</h1>
+        <p>Men's Shoes</p>
+        <h3>MRP : ₹ 11 495.00</h3>
+        <p>Inclusive of all taxes</p>
+        <p>(Also includes all applicable duties)</p>
+        <h4>Select size</h4>
+        <div class="sizes">
+          <h3>UK 5.5</h3>
+        </div>
+        <div class="sizes">
+          <h3>UK 6</h3>
+        </div>
+        <div class="sizes">
+          <h3>UK 6.5</h3>
+        </div>
+        <div class="sizes">
+          <h3>UK 7</h3>
+        </div>
+        <div class="sizes">
+          <h3>UK 7.5</h3>
+        </div>
+        <div class="sizes">
+          <h3>UK 8</h3>
+        </div>
+        <div class="sizes">
+          <h3>UK 8.5</h3>
+        </div>
+        <div class="sizes">
+          <h3>UK 9</h3>
+        </div>
+
+        <div class="button" id="add-to-bag">
+          <h4>Add to bag</h4>
+        </div>
+        <div class="button">
+          <h4>Favourites</h4>
+        </div>
+      </section>
+    </article>
+  </body>
+</html>
